@@ -1,0 +1,405 @@
+
+body{
+    overflow-x: hidden;
+}
+
+/*----------Header------------*/
+header{
+    width: 100%;
+    height: 120px;
+    background: #00457E;
+    display: flex;
+    justify-content: center;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+header ul li{
+    color: white;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+header img{
+    padding: 0.5rem 3rem;
+    width: 120px;
+    height: 70px;
+}
+
+/*----------Hero------------*/
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    background: #00457E;
+    padding: 2rem 3rem 0 3rem;
+}
+
+#hero h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.oranges{
+    color: #F3591F !important;
+}
+
+#hero h6{
+    color: white;
+    padding: 2rem 0;
+    line-height: 1.3rem;
+}
+
+#hero button{
+    background: #27B43E;
+    width: 350px;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: none;
+    cursor: pointer;
+}
+
+#hero button img{
+    height: 60px;
+    width: 60px;
+    padding: 0 1rem;
+}
+
+/*----------Sobre------------*/
+
+.sobre-1{
+    margin: 3rem;
+    padding: 3rem;
+    box-shadow: 0px 0px 40px -6px rgba(29, 117, 101, 0.2);
+}
+
+.sobre-1 p{
+    margin-bottom: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+.sobre-txts p{
+    margin-bottom: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+.separator{
+    margin: 1rem 0;
+    height: 4px;
+    width: 70px;
+    background: #F3591F;
+    border-radius: 20px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sobre-content{
+    display: flex;
+    align-items: center;
+}
+
+.sobre-content h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F3591F;
+    margin-bottom: 2rem;
+} 
+
+.sobre-img-dir{
+    margin-right: 3rem;
+}
+
+.sobre-img-esq{
+    margin-left: 3rem;
+}
+
+/*----------Missão, Visão e Valores------------*/
+
+.bg-blue{
+    background: #00457E;
+    padding: 3rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.valores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+.valores h2{
+    margin: 1rem 0;
+    color: #F3591F;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.valores p{
+    color: white;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+/*----------Portfolio------------*/
+
+#portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    width: 210px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold; 
+    color: #333;
+    text-align: center;
+    line-height: 1.3rem;
+    padding: 2rem;
+}
+
+.portfolio-item img{
+    margin-bottom: 1rem;
+}
+
+/*----------Clientes------------*/
+
+.clientes-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clientes-item{
+    width: 320px;
+    height: 225px;
+    padding: 2rem;
+    box-shadow: 0px 20px 50px -15px rgba(29, 117, 101, 0.2);
+    margin-bottom: 3rem;
+}
+
+.clientes-item h6{
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.clientes-item p{
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+#button-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#button-content button{
+    color: white;
+    background: #00457E;
+    box-shadow: 0px 20px 20px -12px rgba(61, 218, 190, 0.4);
+    padding: 1.5rem 2rem;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+/*----------Contato------------*/
+
+.contato-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    box-shadow: 0px 0px 40px -6px rgba(29, 117, 101, 0.2);
+}
+
+.contato-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    color: #828282;
+    width: 380px;
+    text-align: center;
+}
+
+.contato-content button{
+    background: #27B43E;
+    width: 280px;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: none;
+    cursor: pointer;
+}   
+
+.contato-content button img{
+    height: 60px;
+    width: 60px;
+    padding: 0 1rem;
+}
+.contato-content h4{
+    margin: 2rem 0;
+}
+
+#separator2{
+    background: #828282;
+    width: 4px;
+    height: 295px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.contato-info{
+    margin: 5rem 1rem;
+}
+
+.contato-info div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contato-info a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.contato-info div img{
+    margin-right: 1rem;
+}
+
+#facebook{
+    margin-left: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1094F4;
+}
+
+#instagram{
+    margin-left: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E3455A;
+}
+
+/*----------Footer------------*/
+
+footer{
+    background: #00457E;
+    padding: 3rem 3rem 1rem 3rem;
+    color: white;
+    line-height: 1.5rem;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 1.2rem;
+}
+
+.footer-content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content h2{
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+/*-------------Created by----------*/
+
+.created{
+    display: flex;
+    display: -webkit-flex;
+    font-size: large;
+    font-weight: 600;
+    zoom: 0.7;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5rem;
+}
+
+.created a{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+#git{
+    width: 40px;
+    height: 40px;
+}
+
+.created span{
+    color: white;
+}
+
+.created a:link{
+    text-decoration: none;
+    color: white;
+}
