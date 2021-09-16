@@ -15,16 +15,45 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;800&display=swap"
         rel="stylesheet">
+      <!--Jquery âncoras-->
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <ul>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Portfólio</li>
-            <li>Clientes</li>
-            <li>Contato</li>
+            <li>
+                <a href="#" onclick="rolar_para('#hero')">
+                    <small>
+                        Início
+                    </small>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="rolar_para('#sobre')">
+                    <small>
+                        Sobre
+                    </small>
+                </a>
+            </li><li>
+                <a href="#" onclick="rolar_para('#portfolio')">
+                    <small>
+                        Portfólio
+                    </small>
+                </a>
+            </li><li>
+                <a href="#" onclick="rolar_para('#clientes')">
+                    <small>
+                        Clientes
+                    </small>
+                </a>
+            </li><li>
+                <a href="#" onclick="rolar_para('#contato')">
+                    <small>
+                       Contato
+                    </small>
+                </a>
+            </li>
         </ul>
     </header>
 
@@ -40,7 +69,7 @@
                     Fale Conosco
                 </button>
             </div>
-            <img src="./images/logofull.jpg" alt="São Quadrado Engenharia">
+            <img id="capa" src="./images/logofull.jpg" alt="São Quadrado Engenharia">
         </section>
 
         <section id="sobre">
@@ -64,7 +93,6 @@
                             qualidade.
 
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -175,10 +203,8 @@
             </div>
             <div class="clientes-container">
                 <div class="clientes-item">
-                    <h6>Sr. Fulano</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
+                    <h6>Marta Conceição</h6>
+                    <p>Ponto principal de diferencial é o atendimento por cumprir com os prazos e expectativas que é criado!.</p>
                     <div>
                         <img src="./images/star.png" alt="star">
                         <img src="./images/star.png" alt="star">
@@ -188,10 +214,8 @@
                     </div>
                 </div>
                 <div class="clientes-item">
-                    <h6>Sr. Fulano</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
+                    <h6>Nivia Carla</h6>
+                    <p>Satisfação, qualidade, sem dores de cabeça e com uma organização impecável o escritório de engenharia S² tornou a experiência com obras muito melhor!</p>
                     <div>
                         <img src="./images/star.png" alt="star">
                         <img src="./images/star.png" alt="star">
@@ -201,10 +225,8 @@
                     </div>
                 </div>
                 <div class="clientes-item">
-                    <h6>Sr. Fulano</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
+                    <h6>Sr. Volnei</h6>
+                    <p>A equipe de engenheiros da S² tem um profissionalismo exemplar com o melhor atendimento a um preço justo, duas qualidades que acredito serem essenciais para qualquer tipo de serviços prestados.</p>
                     <div>
                         <img src="./images/star.png" alt="star">
                         <img src="./images/star.png" alt="star">
@@ -222,28 +244,18 @@
         </section>
 
         <section id="contato">
+            <div id="contato-title" class="titulo">
+                <h2>contato</h2>
+                <div class="separator"></div>
+            </div>
             <div class="contato-container">
                 <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.8141974882747!2d-37.44584038578841!3d-11.275064631092654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71071495c923d69%3A0xdc8fa7883482e6e!2sS%C2%B2%20Engenharia%20e%20Projetos!5e0!3m2!1spt-BR!2sbr!4v1630973434287!5m2!1spt-BR!2sbr" 
-                width="450" 
-                height="450" 
+                width="550" 
+                height="550" 
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy"></iframe>
-
-                <div class="contato-content">
-                    <div class="titulo">
-                        <h2>contato</h2>
-                        <div class="separator"></div>
-                    </div>
-                    <h4>Mande agora mesmo uma mensagem no nosso WhatsApp!</h4>
-                    <button type="button">
-                        <img src="./images/whatsapp.png" alt="whatsapp">
-                        Fale Conosco
-                    </button>
-                </div>
-
-                <div id="separator2"></div>
 
                 <div class="contato-info">
                     <div>
@@ -266,6 +278,12 @@
                         <img src="./images/facebook.png" alt="facebok">
                         <h5 id="facebook">Facebook</h5>
                     </a>
+                    <div class="contato-content">
+                        <button type="button">
+                            <img src="./images/whatsapp.png" alt="whatsapp">
+                            Fale Conosco
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -291,6 +309,7 @@
             </a>
         </div>
     </footer>
+    
+    <script type="text/javascript" src="./js/rolarAncora.js"></script>
 </body>
-
 </html>
