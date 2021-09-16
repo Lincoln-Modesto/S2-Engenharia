@@ -406,14 +406,23 @@ footer h1{
     color: white;
 }
 
+@media (max-width: 370px){
+
+    
+}
+
 @media (max-width: 452px){
 
     .sobre-content img{
         zoom: 0.7;
     }
 
-    #capa{
-        display: none;
+    .sobre-1{
+        margin: 0.7rem;
+    }
+
+    #contato{
+        margin: 0.7rem;
     }
 
     .footer-content{
@@ -429,6 +438,10 @@ footer h1{
     }
 
     footer h3{
+        word-break: break-all
+    }
+
+    footer h3{
         zoom: 0.85;
     }
 
@@ -440,18 +453,27 @@ footer h1{
         display: none;
     }
 
+    
     #hero{
-        align-items: center;
+        flex-direction: column-reverse;
     }
 
-    #hero button{
-        zoom: 0.6;
+    #hero div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center !important;
+        text-align: center;
     }
 
     #capa{
+        margin-bottom: 1.5rem;
         zoom: 0.7;
         margin-left: 2rem;
-        height: 150px;
+    }
+
+    #hero button{
+        zoom: 0.7;
     }
 
     .sobre-img-dir{
@@ -499,7 +521,7 @@ footer h1{
     }
 
     .contato-info{
-        width: 250px;
+        width: 100% !important;
     }
 
     .contato-info p{
