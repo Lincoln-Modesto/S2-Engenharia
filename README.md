@@ -1,4 +1,4 @@
 # S-Engenharia
-Website - S² Engenharia, Programa IF Mais Empreendedor
+Design + Website - S² Engenharia, Programa IF Mais Empreendedor
 
-https://saoquadradoengenharia.com
+https://saoquadradoengenharia.com.br
