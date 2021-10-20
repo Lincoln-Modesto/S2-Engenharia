@@ -1,4 +1,5 @@
-# S-Engenharia
-Design + Website - S² Engenharia, Programa IF Mais Empreendedor
+# Design UX/UI + Code, site S² Engenharia - https://saoquadradoengenharia.com.br
 
-https://saoquadradoengenharia.com.br
+## Aplicação feita com HTML, CSS e Javascript puro.
+
+Atuei como voluntário no programa IF Mais empreendedor - Sergipe, no qual os discentes + orientador, promovem ações para ajudar negócios impactados negativamente pela pandemia de covid-19, assim, utilizei a oportunidade para aprimorar meus conhecimentos de front-end, contruindo sites institucionais de empresas da minha região.
